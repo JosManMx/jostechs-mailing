@@ -53,10 +53,10 @@ table, tr, td {
 @media only screen {
   html {
     min-height: 100%;
-    background: #8a8a8a; } }
+    background: #111111; } }
 
 table.body {
-  background: #8a8a8a;
+  background: #111111;
   height: 100%;
   width: 100%; }
 
@@ -281,7 +281,7 @@ span.preheader {
   visibility: hidden;
   mso-hide: all !important;
   font-size: 1px;
-  color: #8a8a8a;
+  color: #111111;
   line-height: 1px;
   max-height: 0px;
   max-width: 0px;
