@@ -88,8 +88,6 @@ th.columns {
   th.columns .columns {
     padding-left: 0 !important;
     padding-right: 0 !important; }
-    th.columns .columns center {
-      min-width: none !important; }
 
 th.columns.last {
   padding-right: 16px; }
@@ -104,6 +102,20 @@ th.large-1 {
 
 th.large-1.last {
   padding-right: 16px; }
+
+th.large-2 {
+  width: 80.66667px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-2.first {
+  padding-left: 16px; }
+
+th.large-2.last {
+  padding-right: 16px; }
+
+th.large-2 center {
+  min-width: 48.66667px; }
 
 th.large-3 {
   width: 129px;
@@ -138,20 +150,6 @@ th.large-7 {
   padding-left: 8px;
   padding-right: 8px; }
 
-th.large-8 {
-  width: 370.66667px;
-  padding-left: 8px;
-  padding-right: 8px; }
-
-th.large-8.first {
-  padding-left: 16px; }
-
-th.large-8.last {
-  padding-right: 16px; }
-
-th.large-8 center {
-  min-width: 338.66667px; }
-
 th.large-12 {
   width: 564px;
   padding-left: 8px;
@@ -165,9 +163,6 @@ th.large-12.last {
 
 th.large-12 center {
   min-width: 532px; }
-
-.body .columns th.large-12 {
-  width: 100%; }
 
 th.expander {
   visibility: hidden;
@@ -192,7 +187,7 @@ th.float-center {
   text-align: center; }
 
 .hide-for-large {
-  display: none !important;
+  display: none;
   mso-hide: all;
   overflow: hidden;
   max-height: 0;
@@ -212,8 +207,7 @@ table.body table.container .hide-for-large * {
   mso-hide: all; }
 
 @media only screen and (max-width: 596px) {
-  table.body table.container .hide-for-large,
-  table.body table.container .row.hide-for-large {
+  table.body table.container .hide-for-large {
     display: table !important;
     width: 100% !important; } }
 
