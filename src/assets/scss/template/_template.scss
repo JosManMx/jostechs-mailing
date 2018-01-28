@@ -52,3 +52,18 @@ table.button.google table td {
 .wrapper.secondary {
   background: #f3f3f3;
 }
+
+.wrapper.fluid-bg{
+  background-color: $black;
+}
+
+.social-icons-large{
+  border-left: 1px solid $white;
+}
+.social-icons-large img{
+  padding: .5rem 0;
+}
+
+h1{
+  color:$secondary-color;
+}
